@@ -1,0 +1,17 @@
+#planets {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 400px;
+  margin-bottom: 4em;
+}
+
+
+h3 {
+  text-align: center;
+  padding-bottom: 1em;
+}

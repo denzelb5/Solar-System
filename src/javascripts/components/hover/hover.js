@@ -1,10 +1,22 @@
 import $ from 'jquery';
-import planets from '../cards/planetCards';
 
 
-const hoverImage = () => {
-  planets.getPlanets();
-  $('img').hide();
+const hideName = (event) => {
+  $(event.target).find('h3').toggleClass('d-none');
+  $('h6').hide();
 };
 
-export default { hoverImage };
+const attachFirstEvents = () => {
+  $('.card-container').hover(hideName);
+};
+
+const showPlanets = (event) => {
+  $(event.target).find('img').toggleClass('d-none');
+};
+
+const attachEvents = () => {
+  $('.card-container').hover(showPlanets);
+};
+
+
+export default { attachFirstEvents, attachEvents };

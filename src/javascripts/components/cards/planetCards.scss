@@ -8,8 +8,10 @@
 
 .card {
   height: 400px;
+  width: 400px;
   margin-bottom: 4em;
   background-color: black;
+  *{pointer-events: none};
 }
 
 
@@ -22,7 +24,9 @@ h3 {
 
 img {
   height: 400px;
-  width: 100%;
-  
-  
 }
+
+p {
+  color: white;
+}
+

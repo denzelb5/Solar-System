@@ -1,5 +1,6 @@
 h5 {
   color: red;
+  cursor: pointer;
   
 }
 
@@ -18,4 +19,13 @@ h5 {
 li {
   color: white;
   list-style: none;
+}
+
+p {
+  cursor: pointer;
+  position: relative;
+}
+
+.info-container {
+  position: relative;
 }

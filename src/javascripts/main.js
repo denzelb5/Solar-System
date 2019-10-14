@@ -11,6 +11,7 @@ const init = () => {
   solo.showSoloPlanetView();
   solo.showMoveInfo();
   solo.closeSoloPlanet();
+  // solo.moveList();
 };
 
 init();

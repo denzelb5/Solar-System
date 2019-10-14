@@ -15,7 +15,7 @@ const showPlanets = (event) => {
 };
 
 const attachEvents = () => {
-  $('.card-container').hover(showPlanets);
+  $('.card-container').hover(showPlanets).css('cursor', 'pointer');
 };
 
 

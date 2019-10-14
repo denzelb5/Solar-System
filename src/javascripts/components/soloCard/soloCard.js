@@ -37,14 +37,22 @@ const showSoloPlanetView = () => {
 
 const moveInfo = () => {
   $('p').animate({
-    right: '-=400px',
-    height: '+=400px',
+    left: '+=400px',
+    top: '-=400px',
     width: '-=400px',
   });
 };
 
+const slideList = () => {
+  $('.info-container').animate({
+    top: '-=300px',
+  });
+};
+
+
 const showMoveInfo = () => {
   $(document).on('click', 'p', moveInfo);
+  $(document).on('click', '.info-container', slideList);
 };
 
 
@@ -55,4 +63,6 @@ const closeSoloPlanet = () => {
   });
 };
 
-export default { showSoloPlanetView, showMoveInfo, closeSoloPlanet };
+export default {
+  showSoloPlanetView, showMoveInfo, closeSoloPlanet,
+};

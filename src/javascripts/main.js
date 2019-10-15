@@ -3,6 +3,7 @@ import '../styles/main.scss';
 import planet from './components/cards/planetCards';
 import hov from './components/hover/hover';
 import solo from './components/soloCard/soloCard';
+import search from './components/search/search';
 
 const init = () => {
   planet.printPlanetCards();
@@ -11,7 +12,7 @@ const init = () => {
   solo.showSoloPlanetView();
   solo.showMoveInfo();
   solo.closeSoloPlanet();
-  // solo.moveList();
+  search.init();
 };
 
 init();

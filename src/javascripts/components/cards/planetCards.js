@@ -11,7 +11,7 @@ const printPlanetCards = () => {
     domString += `
     <div id="${planet.name.toLowerCase()}" class="card-container">
       <div class="card">
-        <h3 id="planet-name">${planet.name}</h3>
+        <h3 class="planet-name">${planet.name}</h3>
         <img src="${planet.imageUrl}" class="d-none" alt="...">
         <p class="d-none">${planet.description}</p>
       </div>

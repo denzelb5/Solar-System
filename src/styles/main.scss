@@ -4,3 +4,40 @@ body {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/01/Entrance_to_outer_space.jpg');
   margin-top: 3em;
 }
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+#search-container {
+  width: 500px;
+  
+}
+
+#search-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+#icon {
+  padding-left: .5em;
+  
+}
+
+#user-input {
+  cursor: pointer;  
+}

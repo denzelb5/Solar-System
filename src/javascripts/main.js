@@ -14,7 +14,6 @@ const init = () => {
   hov.attachEvents();
   hov.attachFirstEvents();
   solo.showSoloPlanetView();
-  solo.showMoveInfo();
   solo.closeSoloPlanet();
   search.init();
 };
